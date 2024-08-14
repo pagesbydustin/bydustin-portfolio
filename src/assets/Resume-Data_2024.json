@@ -1,0 +1,102 @@
+{
+  "Name": "Dustin Parker",
+  "Address": "38500 Mesa Rd. Temecula, 92592",
+  "Phone": "1-951-775-7057",
+  "LinkedIn": "https://www.linkedin.com/in/pagesbydustin/",
+  "Professional Summary": "Highly skilled and experienced Information Technology professional with over 24 years of experience. Expertise in full-stack web development (JavaScript, PHP, HTML, CSS), server administration, network management, and multimedia equipment operations. Proven ability to manage multiple projects simultaneously, troubleshoot complex technical issues, and lead a team in achieving successful technology implementations.",
+  "Experience": [
+    {
+      "Title": "Information Technology Lead",
+      "Company": "Hope Lutheran Church Temecula",
+      "Location": "California, United States",
+      "EmploymentType": "Part-time",
+      "StartDate": "2016-07-01",
+      "EndDate": "Present",
+      "Description": "Solely responsible for all church technology, including IP phone systems, local network, computer and server management, online portal management (Office 365 environment), hybrid network environment, multimedia equipment. Lead the Multimedia department, overseeing all technology aspects of Sunday services and livestreams.",
+      "Skills": ["Networking", "Office 365 Administration", "Windows", "Multimedia", "Project Management"]
+    },
+    {
+      "Title": "PHP Backend Programmer",
+      "Company": "Pages by Dustin",
+      "StartDate": "2010-01-01",
+      "EndDate": "Present",
+      "Description": "Develop websites and create AJAX response APIs.",
+      "Skills": ["PHP", "MySQLi", "MySQL", "CodeIgniter"]
+    },
+    {
+      "Title": "Front End Programmer",
+      "Company": "Pages by Dustin",
+      "StartDate": "2010-01-01",
+      "EndDate": "Present",
+      "Skills": ["JavaScript", "HTML", "CSS", "Web Development", "AJAX", "jQuery"]
+    },
+    {
+      "Title": "Javascript Developer",
+      "Company": "Self-employed",
+      "Location": "California, United States",
+      "EmploymentType": "Hybrid",
+      "StartDate": "2000-01-01",
+      "EndDate": "Present",
+      "Description": "Proficient in JavaScript since 2000. Experienced with various frameworks and libraries, creating some custom libraries as well. Possess knowledge of additional front-end and back-end languages for full-stack development, enabling independent project completion.",
+      "Skills": [
+        "Node.js",
+        "Server Side JavaScript",
+        "React.js",
+        "JSON",
+        "JSON Web Token (JWT)",
+        "Express.js",
+        "react-bootstrap",
+        "WordPress",
+        "Bootstrap (Framework)",
+        "PugJS",
+        "Jade",
+        "Microsoft Visual Studio Code",
+        "Back-End Web Development",
+        "Front-End Web Development",
+        "Full-Stack Development",
+        "Application Programming Interfaces (API)",
+        "CLI",
+        "JavaScript",
+        "jQuery",
+        "C#",
+        "Front-end",
+        "CSS",
+        "HTML 5",
+        "jQuery UI",
+        "Git",
+        "HTML",
+        "XML",
+        "TCP/IP",
+        "MVC",
+        "Facebook API",
+        "phpMyAdmin",
+        "Web Applications"
+      ]
+    },
+    {
+      "Title": "Lab Instructor",
+      "Company": "Mt. San Jacinto College",
+      "Location": "Mt san jacinto ca",
+      "StartDate": "2013-06-01",
+      "EndDate": "2015-07-01",
+      "Description": "Community education lab instructor for Microsoft Office Suite.",
+      "Skills": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word",
+        "Microsoft Outlook",
+        "Microsoft Access",
+        "Microsoft Office"
+      ]
+    },
+    {
+      "Title": "Network Administrator Assistant",
+      "Company": "Mt. San Jacinto College",
+      "Location": "Mt san jacinto ca",
+      "StartDate": "2008-07-01",
+      "EndDate": "2010-06-01",
+      "Description": "Responsible for school server maintenance and repair, student computer upkeep, and participation in the college's Remote Deployment Server system development.",
+      "Skills": ["Operating Systems", "Windows Server", "NetBeans", "WAMP", "Windows 7"]
+    }
+  ]
+}
