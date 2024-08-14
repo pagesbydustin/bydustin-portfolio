@@ -1,1 +1,3 @@
-# bydustin-portfolio
+# Portfolio App
+
+## Dependencies
