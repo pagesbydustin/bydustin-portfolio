@@ -15,7 +15,7 @@ function App() {
   Person.store = (key, value) => {
     sessionStorage.setItem(key, value);
   };
-  Person.store("Person", JSON.stringify(Person));
+  Person.store("resume", JSON.stringify(Resume));
   return (
     <>
       <NavigationComponent />
