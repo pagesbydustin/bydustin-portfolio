@@ -1,6 +1,7 @@
 import HeaderComponent from "./components/layout/HeaderComponent";
 import NavigationComponent from "./components/layout/NavigationComponent";
 import BodyLayoutComponent from "./components/layout/BodyLayoutComponent";
+
 import Resume from "./assets/Resume-Data_2024.json";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     sessionStorage.setItem(key, value);
   };
   Person.store("resume", JSON.stringify(Resume));
+
   return (
     <>
       <NavigationComponent />
