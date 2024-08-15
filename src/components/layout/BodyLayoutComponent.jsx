@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { animate } from "motion";
 import { useState } from "react";
 import { Card, Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 
@@ -15,7 +15,7 @@ export default function BodyLayoutComponent() {
         <Row>
           <Col className=" p-2 col-100" lg={100}>
             <div className="align-center" id="home">
-              <h3 id="home" style={{ textAlign: "Center" }}>
+              <h3 id="homeh3" style={{ textAlign: "Center" }}>
                 Who is this guy?
               </h3>
             </div>
@@ -39,4 +39,8 @@ export default function BodyLayoutComponent() {
       </div>
     </>
   );
+}
+
+{
+  /**animate(home, { display: false });*/
 }
