@@ -2,7 +2,11 @@
   "Name": "Dustin Parker",
   "Address": "38500 Mesa Rd. Temecula, 92592",
   "Phone": "1-951-775-7057",
-  "LinkedIn": "https://www.linkedin.com/in/pagesbydustin/",
+  "Links": {
+    "LinkedIn": "https://www.linkedin.com/in/pagesbydustin/",
+    "Github": "https://github.com/pagesbydustin",
+    "Website": "https://theparkersarereal.com"
+  },
   "Professional Summary": "Highly skilled and experienced Information Technology professional with over 24 years of experience. Expertise in full-stack web development (JavaScript, PHP, HTML, CSS), server administration, network management, and multimedia equipment operations. Proven ability to manage multiple projects simultaneously, troubleshoot complex technical issues, and lead a team in achieving successful technology implementations.",
   "Experience": [
     {
@@ -10,34 +14,58 @@
       "Company": "Hope Lutheran Church Temecula",
       "Location": "California, United States",
       "EmploymentType": "Part-time",
-      "StartDate": "2016-07-01",
-      "EndDate": "Present",
+      "StartDate": "2016-07-16",
+      "EndDate": "2024-08-02",
       "Description": "Solely responsible for all church technology, including IP phone systems, local network, computer and server management, online portal management (Office 365 environment), hybrid network environment, multimedia equipment. Lead the Multimedia department, overseeing all technology aspects of Sunday services and livestreams.",
-      "Skills": ["Networking", "Office 365 Administration", "Windows", "Multimedia", "Project Management"]
+      "Skills": [
+        "Networking",
+        "Office 365 Administration",
+        "Windows",
+        "Multimedia",
+        "Project Management"
+      ]
     },
     {
       "Title": "PHP Backend Programmer",
       "Company": "Pages by Dustin",
-      "StartDate": "2010-01-01",
+      "StartDate": "2011-01-01",
       "EndDate": "Present",
       "Description": "Develop websites and create AJAX response APIs.",
-      "Skills": ["PHP", "MySQLi", "MySQL", "CodeIgniter"]
+      "Skills": [
+        "PHP",
+        "MySQLi",
+        "MySQL PDO",
+        "CodeIgniter",
+        "WordPress",
+        "MVC",
+        "Facebook API",
+        "phpMyAdmin",
+        "Web APIs"
+      ]
     },
     {
       "Title": "Front End Programmer",
       "Company": "Pages by Dustin",
-      "StartDate": "2010-01-01",
+      "StartDate": "2011-01-01",
       "EndDate": "Present",
-      "Skills": ["JavaScript", "HTML", "CSS", "Web Development", "AJAX", "jQuery"]
+      "Skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Web Development",
+        "AJAX",
+        "jQuery",
+        "Browser Standards"
+      ]
     },
     {
-      "Title": "Javascript Developer",
-      "Company": "Self-employed",
+      "Title": "Sofware Engineer",
+      "Company": "Pages by Dustin",
       "Location": "California, United States",
       "EmploymentType": "Hybrid",
       "StartDate": "2000-01-01",
       "EndDate": "Present",
-      "Description": "Proficient in JavaScript since 2000. Experienced with various frameworks and libraries, creating some custom libraries as well. Possess knowledge of additional front-end and back-end languages for full-stack development, enabling independent project completion.",
+      "Description": "Working in JavaScript since 2000. Experienced with various frameworks and libraries, creating some custom libraries as well. Possess knowledge of additional front-end and back-end languages for full-stack development, enabling independent project completion.",
       "Skills": [
         "Node.js",
         "Server Side JavaScript",
@@ -46,7 +74,6 @@
         "JSON Web Token (JWT)",
         "Express.js",
         "react-bootstrap",
-        "WordPress",
         "Bootstrap (Framework)",
         "PugJS",
         "Jade",
@@ -66,11 +93,7 @@
         "Git",
         "HTML",
         "XML",
-        "TCP/IP",
-        "MVC",
-        "Facebook API",
-        "phpMyAdmin",
-        "Web Applications"
+        "TCP/IP"
       ]
     },
     {
@@ -86,17 +109,42 @@
         "Microsoft Word",
         "Microsoft Outlook",
         "Microsoft Access",
-        "Microsoft Office"
+        "Microsoft Office",
+        "Office Soft Skills"
       ]
     },
     {
       "Title": "Network Administrator Assistant",
       "Company": "Mt. San Jacinto College",
-      "Location": "Mt san jacinto ca",
+      "Location": "Menifee ca.",
       "StartDate": "2008-07-01",
       "EndDate": "2010-06-01",
       "Description": "Responsible for school server maintenance and repair, student computer upkeep, and participation in the college's Remote Deployment Server system development.",
-      "Skills": ["Operating Systems", "Windows Server", "NetBeans", "WAMP", "Windows 7"]
+      "Skills": [
+        "Operating Systems",
+        "Windows Server",
+        "RDS Systems",
+        "NetBeans",
+        "WAMP",
+        "Windows 7"
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Name": "Quote Me",
+      "Type": "JS Library",
+      "Repository": "https://github.com/pagesbydustin/quoteme.js"
+    },
+    {
+      "Name": "q_Library",
+      "Type": "JS Library",
+      "Repository": "https://github.com/pagesbydustin/q_library"
+    },
+    {
+      "Name": "Portfolio",
+      "Type": "Website App",
+      "Url": "https://bydustin-portfolio-9g1e7g9cc-dustins-projects-e1107ed8.vercel.app/"
     }
   ]
 }
