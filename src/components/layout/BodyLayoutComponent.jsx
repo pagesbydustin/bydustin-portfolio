@@ -29,7 +29,7 @@ export default function BodyLayoutComponent() {
                   <Col lg={1} md={12}>
                     test
                   </Col>
-                  <Col></Col>
+                  <Col>Test</Col>
                 </Row>
               </Card.Body>
             </Card>
