@@ -53,11 +53,7 @@ export default function NavigationComponent() {
               >
                 Skills
               </Nav.Link>
-              <Nav.Link
-                href="#experiance"
-                eventKey={"experiance"}
-                onClick={() => registerLinkClicked("experiance")}
-              >
+              <Nav.Link href="#experiance" key={"experiance"}>
                 Experiance
               </Nav.Link>
               <Nav.Link
