@@ -1,45 +1,25 @@
-import { useState } from "react";
-import { Card, Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
+import ExperienceComponent from "./sections/ExperienceComponent";
+import AboutComponent from "./sections/AboutComponent";
 
 export default function BodyLayoutComponent() {
-  const [mouseIsOver, setMouseIsOver] = useState(null);
-
-  function setBgColor(item) {
-    setMouseIsOver(item);
-  }
-
   return (
     <>
       <div className={"container-flex-full my-2"}>
         <Row>
           <Col className=" p-2 col-100" lg={100}>
             <div className="align-center" id="home">
-              <h3 id="homeh3" style={{ textAlign: "Center" }}>
-                Who is this guy?
-              </h3>
+              <h3 style={{ textAlign: "Center" }}>Who is this guy?</h3>
             </div>
           </Col>
+        </Row>
+        <Row>
           <Col className="p-2 col-100">
-            <Card className="card-subtitle">
-              <Card.Header className="text-center">
-                <b>- About Dustin -</b>
-              </Card.Header>
-              <Card.Body>
-                <Row>
-                  <Col lg={1} md={12}>
-                    test
-                  </Col>
-                  <Col>Test</Col>
-                </Row>
-              </Card.Body>
-            </Card>
+            <AboutComponent show={true} />
+            <ExperienceComponent show={true} />
           </Col>
         </Row>
       </div>
     </>
   );
-}
-
-{
-  /**animate(home, { display: false });*/
 }

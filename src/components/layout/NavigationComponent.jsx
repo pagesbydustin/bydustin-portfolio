@@ -1,16 +1,18 @@
+import { useState } from "react";
 import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
 
 export default function NavigationComponent() {
+  const [activeEventKeyName, setActiveEventKeyName] = useState("home");
+
+  function registerLinkClicked(input) {
+    setActiveEventKeyName(input);
+  }
+
+  console.info(activeEventKeyName);
   return (
-    <Navbar
-      fixed="top"
-      key={"sm"}
-      expand={"sm"}
-      variant="dark"
-      className="bg-dark mb-3"
-    >
+    <Navbar fixed="top" expand={"sm"} variant="dark" className="bg-dark mb-3">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img src="/logo.png" height={"50"} className="rounded-circle" />
           <span>{" - "}</span>By Dustin -{" "}
         </Navbar.Brand>
@@ -20,29 +22,49 @@ export default function NavigationComponent() {
           aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
           placement="end"
         >
-          <Offcanvas.Header className="" closeButton>
-            <Offcanvas.Title className="" id={`offcanvasNavbarLabel-expand-sm`}>
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`}>
               Main Menu
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav
+              activeKey={activeEventKeyName}
               className="justify-content-end flex-grow-1 pe-3"
-              defaultActiveKey={"home"}
             >
-              <Nav.Link href="#home" key={"home"}>
+              <Nav.Link
+                href="#home"
+                eventKey={"home"}
+                onClick={() => registerLinkClicked("home")}
+              >
                 Home
               </Nav.Link>
-              <Nav.Link href="#about" key={"about"}>
+              <Nav.Link
+                href="#about"
+                eventKey={"about"}
+                onClick={() => registerLinkClicked("about")}
+              >
                 About
               </Nav.Link>
-              <Nav.Link href="#skills" key={"skills"}>
+              <Nav.Link
+                href="#skills"
+                eventKey={"skills"}
+                onClick={() => registerLinkClicked("skills")}
+              >
                 Skills
               </Nav.Link>
-              <Nav.Link href="#experiance" key={"experiance"}>
+              <Nav.Link
+                href="#experiance"
+                eventKey={"experiance"}
+                onClick={() => registerLinkClicked("experiance")}
+              >
                 Experiance
               </Nav.Link>
-              <Nav.Link href="#contact" key={"contact"}>
+              <Nav.Link
+                href="#contact"
+                eventKey={"contact"}
+                onClick={() => registerLinkClicked("contact")}
+              >
                 Contact
               </Nav.Link>
             </Nav>

@@ -6,17 +6,20 @@ import Resume from "./assets/Resume-Data_2024.json";
 
 function App() {
   const resumeData = Resume;
+  console.log(resumeData.Experience);
   const Person = {
     name: resumeData.Name,
     address: resumeData.Address,
     phone: resumeData.Phone,
     summary: resumeData["Professional Summary"],
-    social: { linkedIn: resumeData.LinkedIn },
+    links: resumeData.links,
+    store: (key, value) => {
+      sessionStorage.setItem(key, value);
+    },
   };
-  Person.store = (key, value) => {
-    sessionStorage.setItem(key, value);
-  };
-  Person.store("resume", JSON.stringify(Resume));
+
+  Person.store("person", JSON.stringify(Person));
+  Person.store("experience", JSON.stringify(resumeData.Experience));
 
   return (
     <>
