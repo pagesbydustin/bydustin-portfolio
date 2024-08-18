@@ -8,7 +8,6 @@ export default function NavigationComponent() {
     setActiveEventKeyName(input);
   }
 
-  console.info(activeEventKeyName);
   return (
     <Navbar fixed="top" expand={"sm"} variant="dark" className="bg-dark mb-3">
       <Container fluid>

@@ -1,6 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import ExperienceComponent from "./sections/ExperienceComponent";
 import AboutComponent from "./sections/AboutComponent";
+import SkillsComponent from "./sections/SkillsComponent";
 
 export default function BodyLayoutComponent() {
   return (
@@ -16,7 +17,8 @@ export default function BodyLayoutComponent() {
         <Row>
           <Col className="p-2 col-100">
             <AboutComponent show={true} />
-            <ExperienceComponent show={true} />
+            <SkillsComponent show={true} />
+            {/** <ExperienceComponent showTF={true} title="Experience" />*/}
           </Col>
         </Row>
       </div>

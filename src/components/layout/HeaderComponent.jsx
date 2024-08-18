@@ -5,7 +5,7 @@ export default function HeaderComponent({ propsTitle, propsHeight }) {
 
   return (
     <>
-      <div className="clearfix d-flex mt-0 mb-5 flex-fill" />
+      <div id="home" className="clearfix d-flex mt-0 mb-5 flex-fill" />
       <div
         className=" mt-5 w-100 p-lg-2 p-md-2 p-sm-1 p-4 bg-gradient rounded-bottom"
         style={{ height: config.height + "px" }}
