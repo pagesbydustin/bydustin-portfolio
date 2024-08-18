@@ -18,9 +18,12 @@ export default function SkillsComponent({ show }) {
   }
 
   return (
-    <div id="Skills" className="container m-2">
-      <h3 className="text-center">Skills</h3>
-      <ListGroup className="list-group-horizontal-lg flex-lg-wrap d-inline-flex">
+    <div id="skills" className="container m-2">
+      <h4 className="text-center p-2">Skills</h4>
+      <ListGroup
+        style={{ cursor: "pointer" }}
+        className="list-group-horizontal-lg flex-lg-wrap list-list-group-flush "
+      >
         {Skills.map((skill, index) => (
           <ListGroupItem
             itemID={index}
@@ -30,8 +33,8 @@ export default function SkillsComponent({ show }) {
             onClick={() => handleSelect(index)}
             className={
               isSelected === index
-                ? "text-danger list-group-item-secondary"
-                : ""
+                ? "text-warning list-group-item-dark"
+                : "text-light bg-dark-subtle"
             }
           >
             {skill}

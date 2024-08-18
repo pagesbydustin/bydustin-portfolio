@@ -10,7 +10,7 @@ export default function CardComponent({ props }) {
     <Collapse in={show}>
       <Card className="m-3">
         <Card.Header className="text-center">
-          <b>- {props.title} -</b>
+          <h3>- {props.title} -</h3>
         </Card.Header>
         <Card.Body>
           <Row>

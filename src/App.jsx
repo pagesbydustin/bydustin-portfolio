@@ -1,6 +1,7 @@
 import HeaderComponent from "./components/layout/HeaderComponent";
 import NavigationComponent from "./components/layout/NavigationComponent";
 import BodyLayoutComponent from "./components/layout/BodyLayoutComponent";
+import FooterComponent from "./components/layout/FooterComponent";
 
 import Resume from "./assets/Resume-Data_2024.json";
 
@@ -53,10 +54,24 @@ function App() {
       <div id="mainContent" className="container clearfix bg-primary-subtle p1">
         <HeaderComponent propsTitle={Person.name} propsHeight={110} />
         {/** Header Component */}
+
         <BodyLayoutComponent />
         {/** Body Layout Component */}
-        {/** Footer Component */}
+        
+        <div
+          id="contact"
+          className="text-center align-content-center p-4 bg-body m-3 rounded-top-3 text-light"
+        >
+          <h4>{Person.name}</h4>
+          <hr />
+          <h5> pagesbydustin@gmail.com</h5>
+          <h5>admin@theparkersarereal.com </h5>
+          <div> {Person.address}</div>
+          <div>{Person.phone}</div>
+        </div>
       </div>
+      <FooterComponent />
+      {/** Footer Component */}
     </>
   );
 }

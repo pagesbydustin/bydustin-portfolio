@@ -6,7 +6,7 @@ import SkillsComponent from "./sections/SkillsComponent";
 export default function BodyLayoutComponent() {
   return (
     <>
-      <div className={"container-flex-full my-2"}>
+      <div className={"container-flex-full "}>
         <Row>
           <Col className=" p-2 col-100" lg={100}>
             <div className="align-center" id="home">
@@ -16,9 +16,15 @@ export default function BodyLayoutComponent() {
         </Row>
         <Row>
           <Col className="p-2 col-100">
-            <AboutComponent show={true} />
-            <SkillsComponent show={true} />
-            {/** <ExperienceComponent showTF={true} title="Experience" />*/}
+            <div className="mb-5 ">
+              <AboutComponent show={true} />
+            </div>
+            <div className="mt-5 mb-5">
+              <SkillsComponent show={true} />
+            </div>
+            <div className="mt-5">
+              <ExperienceComponent showTF={true} title="Experience" />
+            </div>
           </Col>
         </Row>
       </div>
