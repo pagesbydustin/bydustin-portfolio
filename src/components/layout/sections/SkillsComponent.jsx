@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export default function SkillsComponent({ show }) {
   const Skills = JSON.parse(sessionStorage.getItem("skills"));
+  var SkillsSorted = Skills.toSorted();
 
   const [active, setActive] = useState(0);
   const [isSelected, setIsSelected] = useState(100);
@@ -24,7 +25,7 @@ export default function SkillsComponent({ show }) {
         style={{ cursor: "pointer" }}
         className="list-group-horizontal-lg flex-lg-wrap list-list-group-flush "
       >
-        {Skills.map((skill, index) => (
+        {SkillsSorted.map((skill, index) => (
           <ListGroupItem
             itemID={index}
             key={index}
