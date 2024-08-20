@@ -51,7 +51,10 @@ function App() {
     <>
       <NavigationComponent />
       {/** Nav Component */}
-      <div id="mainContent" className="container clearfix bg-primary-subtle p1">
+      <div
+        id="mainContent"
+        className="container clearfix bg-primary-subtle p1 rounded-bottom-2"
+      >
         <HeaderComponent propsTitle={Person.name} propsHeight={110} />
         {/** Header Component */}
 

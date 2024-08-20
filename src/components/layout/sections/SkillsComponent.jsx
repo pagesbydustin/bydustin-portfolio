@@ -6,7 +6,7 @@ export default function SkillsComponent({ show }) {
   var SkillsSorted = Skills.toSorted();
 
   const [active, setActive] = useState(0);
-  const [isSelected, setIsSelected] = useState(100);
+  const [isSelected, setIsSelected] = useState();
 
   function handleHoverIn(ID) {
     {
@@ -23,7 +23,7 @@ export default function SkillsComponent({ show }) {
       <h4 className="text-center p-2">Skills</h4>
       <ListGroup
         style={{ cursor: "pointer" }}
-        className="list-group-horizontal-lg flex-lg-wrap list-list-group-flush "
+        className="list-group-horizontal-lg flex-lg-wrap list-list-group-flush tex"
       >
         {SkillsSorted.map((skill, index) => (
           <ListGroupItem
@@ -34,8 +34,8 @@ export default function SkillsComponent({ show }) {
             onClick={() => handleSelect(index)}
             className={
               isSelected === index
-                ? "text-warning list-group-item-dark"
-                : "text-light bg-dark-subtle"
+                ? "text-warning bg-body-tertiary"
+                : "bg-body-tertiary"
             }
           >
             {skill}
