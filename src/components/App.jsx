@@ -1,9 +1,9 @@
-import HeaderComponent from "./components/layout/HeaderComponent";
-import NavigationComponent from "./components/layout/NavigationComponent";
-import BodyLayoutComponent from "./components/layout/BodyLayoutComponent";
-import FooterComponent from "./components/layout/FooterComponent";
+import HeaderComponent from "./layout/HeaderComponent";
+import NavigationComponent from "./layout/NavigationComponent";
+import BodyLayoutComponent from "./layout/BodyLayoutComponent";
+import FooterComponent from "./layout/FooterComponent";
 
-import Resume from "./assets/Resume-Data_2024.json";
+import Resume from "../assets/Resume-Data_2024.json";
 
 function App() {
   const resumeData = Resume;
@@ -57,7 +57,7 @@ function App() {
 
         <BodyLayoutComponent />
         {/** Body Layout Component */}
-        
+
         <div
           id="contact"
           className="text-center align-content-center p-4 bg-body m-3 rounded-top-3 text-light"
