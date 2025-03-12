@@ -7,7 +7,7 @@ export default function FooterComponent() {
       style={{ alignContent: "center" }}
     >
       <span className="font-monospace">
-        By Dustin LLC 2024 &#169; | All rights reserved
+        By Dustin LLC 2025 &#169; | All rights reserved
       </span>
     </div>
   );
