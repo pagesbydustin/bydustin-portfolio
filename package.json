@@ -35,5 +35,13 @@
   "description": "My portfolio app",
   "main": "index.html",
   "author": "Dustin Parker",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagesbydustin/bydustin-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pagesbydustin/bydustin-portfolio/issues"
+  },
+  "homepage": "https://github.com/pagesbydustin/bydustin-portfolio#readme"
 }
