@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
 export default function HeaderComponent({ propsTitle, propsHeight }) {
+  const config = { title: propsTitle, height: propsHeight };
   const config = { title: propsTitle, height: propsHeight };
 
   return (
@@ -23,6 +25,8 @@ export default function HeaderComponent({ propsTitle, propsHeight }) {
 }
 
 HeaderComponent.propTypes = {
+  propsTitle: PropTypes.string.isRequired,
+  propsHeight: PropTypes.number.isRequired,
   propsTitle: PropTypes.string.isRequired,
   propsHeight: PropTypes.number.isRequired,
 };
