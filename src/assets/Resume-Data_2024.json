@@ -14,13 +14,8 @@
       "Company": "Hope Lutheran Church Temecula",
       "Location": "California, United States",
       "EmploymentType": "Part-time",
-<<<<<<< HEAD
-      "StartDate": "07-16-2016",
-      "EndDate": "08-02-2024",
-=======
       "StartDate": "2016-07-16",
       "EndDate": "2024-08-02",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
       "Description": "Solely responsible for all church technology, including IP phone systems, local network, computer and server management, online portal management (Office 365 environment), hybrid network environment, multimedia equipment. Lead the Multimedia department, overseeing all technology aspects of Sunday services and livestreams.",
       "Skills": [
         "Networking",
@@ -33,11 +28,7 @@
     {
       "Title": "PHP Backend Programmer",
       "Company": "Pages by Dustin",
-<<<<<<< HEAD
-      "StartDate": "01-01-2011",
-=======
       "StartDate": "2011-01-01",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
       "EndDate": "Present",
       "Description": "Develop websites and create AJAX response APIs.",
       "Skills": [
@@ -48,36 +39,23 @@
         "WordPress",
         "MVC",
         "Facebook API",
-<<<<<<< HEAD
-        "PhpMyAdmin",
-=======
         "phpMyAdmin",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
         "Web APIs"
       ]
     },
     {
       "Title": "Front End Programmer",
       "Company": "Pages by Dustin",
-<<<<<<< HEAD
-      "StartDate": "01-01-2011",
-      "EndDate": "Present",
-      "Description": "Programming many Websites and apps using common web standards starting after getting a degree in Computer Science with a certifaction as a web developer",
-=======
       "StartDate": "2011-01-01",
       "EndDate": "Present",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
+      "Description": "Programming many Websites and apps using common web standards starting after getting a degree in Computer Science with a certifaction as a web developer",
       "Skills": [
         "JavaScript",
         "HTML",
         "CSS",
         "Web Development",
         "AJAX",
-<<<<<<< HEAD
-        "JQuery",
-=======
         "jQuery",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
         "Browser Standards"
       ]
     },
@@ -86,11 +64,7 @@
       "Company": "Pages by Dustin",
       "Location": "California, United States",
       "EmploymentType": "Hybrid",
-<<<<<<< HEAD
-      "StartDate": "01-01-2000",
-=======
       "StartDate": "2000-01-01",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
       "EndDate": "Present",
       "Description": "Working in JavaScript since 2000. Experienced with various frameworks and libraries, creating some custom libraries as well. Possess knowledge of additional front-end and back-end languages for full-stack development, enabling independent project completion.",
       "Skills": [
@@ -100,11 +74,7 @@
         "JSON",
         "JSON Web Token (JWT)",
         "Express.js",
-<<<<<<< HEAD
-        "React Bootstrap",
-=======
         "react-bootstrap",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
         "Bootstrap (Framework)",
         "PugJS",
         "Jade",
@@ -115,20 +85,12 @@
         "Application Programming Interfaces (API)",
         "CLI",
         "JavaScript",
-<<<<<<< HEAD
-        "JQuery",
-        "JQuery UI",
-=======
         "jQuery",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
+        "jQuery UI",
         "C#",
         "Front-end",
         "CSS",
         "HTML 5",
-<<<<<<< HEAD
-=======
-        "jQuery UI",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
         "Git",
         "HTML",
         "XML",
@@ -139,13 +101,8 @@
       "Title": "Lab Instructor",
       "Company": "Mt. San Jacinto College",
       "Location": "Mt san jacinto ca",
-<<<<<<< HEAD
-      "StartDate": "06-01-2013",
-      "EndDate": "07-01-2015",
-=======
       "StartDate": "2013-06-01",
       "EndDate": "2015-07-01",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
       "Description": "Community education lab instructor for Microsoft Office Suite.",
       "Skills": [
         "Microsoft Excel",
@@ -161,13 +118,8 @@
       "Title": "Network Administrator Assistant",
       "Company": "Mt. San Jacinto College",
       "Location": "Menifee ca.",
-<<<<<<< HEAD
-      "StartDate": "07-01-2008",
-      "EndDate": "06-01-2010",
-=======
       "StartDate": "2008-07-01",
       "EndDate": "2010-06-01",
->>>>>>> b86602881b9d38fc7e89108c6487b217c3675fd5
       "Description": "Responsible for school server maintenance and repair, student computer upkeep, and participation in the college's Remote Deployment Server system development.",
       "Skills": [
         "Operating Systems",
