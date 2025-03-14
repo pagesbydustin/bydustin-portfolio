@@ -1,7 +1,8 @@
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
-export default function SkillsComponent({ show }) {
+export default function SkillsComponent() {
   const Skills = JSON.parse(sessionStorage.getItem("skills"));
   var SkillsSorted = Skills.toSorted();
 
@@ -19,8 +20,8 @@ export default function SkillsComponent({ show }) {
   }
 
   return (
-    <div id="skills" className="container m-2">
-      <h4 className="text-center p-2">Skills</h4>
+    <div id="skills" className={"container m-2 "}>
+      <h4 className={"text-center p-2"}>Skills</h4>
       <ListGroup
         style={{ cursor: "pointer" }}
         className="list-group-horizontal-lg flex-lg-wrap list-list-group-flush tex"
@@ -45,3 +46,7 @@ export default function SkillsComponent({ show }) {
     </div>
   );
 }
+
+SkillsComponent.propTypes = {
+  show: PropTypes.bool, // boolean
+};

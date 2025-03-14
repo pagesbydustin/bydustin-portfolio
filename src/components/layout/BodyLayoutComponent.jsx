@@ -2,11 +2,12 @@ import { Col, Row } from "react-bootstrap";
 import ExperienceComponent from "./sections/ExperienceComponent";
 import AboutComponent from "./sections/AboutComponent";
 import SkillsComponent from "./sections/SkillsComponent";
+import PropTypes from "prop-types";
 
 export default function BodyLayoutComponent() {
   return (
     <>
-      <div className={"container-flex-full "}>
+      <div className={"container-flex-full clearfix"}>
         <Row>
           <Col className=" p-2 col-100" lg={100}>
             <div className="align-center" id="home">
@@ -23,7 +24,7 @@ export default function BodyLayoutComponent() {
               <SkillsComponent show={true} />
             </div>
             <div className="mt-5">
-              <ExperienceComponent showTF={true} title="Experience" />
+              <ExperienceComponent show={true} title="Experience" />
             </div>
           </Col>
         </Row>
@@ -31,3 +32,5 @@ export default function BodyLayoutComponent() {
     </>
   );
 }
+
+BodyLayoutComponent.propTypes = {};

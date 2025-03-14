@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Card, Col, Collapse, Row } from "react-bootstrap";
-import { BsCheckCircle } from "react-icons/bs";
 import PropTypes from "prop-types";
 
 export default function CardComponent({ props }) {

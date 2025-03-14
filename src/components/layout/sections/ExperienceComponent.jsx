@@ -32,7 +32,35 @@ export default function ExperienceComponent({ showTF, title }) {
 
   return (
     <>
-      <div className="container" hidden={false}>
+      <div className="container d-sm-grid d-xxl-none" hidden={show}>
+        <h4 className="text-center pt-4 pb-2" id="experience">
+          Experience
+        </h4>
+        {Experience.map((experience, index) => (
+          <Card className="m-3 align-content-center align-middle">
+            <Card.Header className="text-center">
+              <b>- {experience.Title} -</b>
+            </Card.Header>
+            <Card.Body>
+              <Row>
+                <Col>
+                  <div className="rounded container p-3 bg-primary bg-opacity-25 align-content-center text-center"                  >
+                    {experience.StartDate ? (
+                      experience.StartDate + " to " + experience.EndDate
+                    ) : (
+                      <BsCheckCircle size={22} />
+                    )}
+                    <br /><hr />
+                    {experience.Description}
+                  </div>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
+        ))}
+      </div>
+
+      <div className="container d-none d-xxl-grid" hidden={showTF}>
         <h4 className="text-center pt-4 pb-2" id="experience">
           Experience
         </h4>
@@ -54,7 +82,7 @@ export default function ExperienceComponent({ showTF, title }) {
           ]}
         >
           {Experience.map((experience, index) => (
-            <Carousel.Item key={index} style={{ height: "240px" }}>
+            <Carousel.Item key={index} style={{ height: "240px" }} >
               <Card className="m-3 align-content-center align-middle">
                 <Card.Header className="text-center">
                   <b>- {experience.Title} -</b>

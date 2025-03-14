@@ -1,4 +1,5 @@
 import { Offcanvas, ProgressBar } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export default function FooterComponent() {
   return (
@@ -12,3 +13,5 @@ export default function FooterComponent() {
     </div>
   );
 }
+
+FooterComponent.propTypes = {};

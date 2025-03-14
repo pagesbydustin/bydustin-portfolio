@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export default function NavigationComponent() {
   const [activeEventKeyName, setActiveEventKeyName] = useState("home");
@@ -73,3 +74,5 @@ export default function NavigationComponent() {
     </Navbar>
   );
 }
+
+NavigationComponent.propTypes = {};

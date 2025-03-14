@@ -1,9 +1,10 @@
 import CardComponent from "../CardComponent";
+import PropTypes from "prop-types";
 
 export default function AboutComponent({ show }) {
   const Person = JSON.parse(sessionStorage.getItem("person"));
   return (
-    <div id="about">
+    <div id="about" className="clearfix">
       <CardComponent
         props={{
           title: "About " + Person.name,
@@ -14,3 +15,7 @@ export default function AboutComponent({ show }) {
     </div>
   );
 }
+
+AboutComponent.propTypes = {
+  show: PropTypes.bool, // boolean
+};

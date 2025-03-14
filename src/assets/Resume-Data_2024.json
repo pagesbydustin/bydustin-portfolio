@@ -60,7 +60,7 @@
       ]
     },
     {
-      "Title": "Sofware Engineer",
+      "Title": "Software Engineer",
       "Company": "Pages by Dustin",
       "Location": "California, United States",
       "EmploymentType": "Hybrid",
@@ -111,7 +111,12 @@
         "Microsoft Outlook",
         "Microsoft Access",
         "Microsoft Office",
-        "Office Soft Skills"
+        "Office Soft Skills",
+        "Leadership",
+        "Teaching",
+        "Multimedia",
+        "Project Management",
+        "Time Managment"
       ]
     },
     {
@@ -127,7 +132,7 @@
         "RDS Systems",
         "NetBeans",
         "WAMP",
-        "Windows 7"
+        "Windows"
       ]
     }
   ],
@@ -145,7 +150,7 @@
     {
       "Name": "Portfolio",
       "Type": "Website App",
-      "Url": "https://bydustin-portfolio-9g1e7g9cc-dustins-projects-e1107ed8.vercel.app/"
+      "Url": "https://bydustin-portfolio.vercel.app/"
     }
   ]
 }
