@@ -1,10 +1,11 @@
-import { ListGroup, ListGroupItem } from "react-bootstrap";
 import { useState } from "react";
+import { ListGroup, ListGroupItem } from "react-bootstrap";
 import PropTypes from "prop-types";
+import DataManager from '../../../assets/utils/DataManager';
 
 export default function SkillsComponent() {
-  const Skills = JSON.parse(sessionStorage.getItem("skills"));
-  var SkillsSorted = Skills.toSorted();
+  const skills = DataManager.getSkills();
+  const skillsSorted = [...skills].sort();
 
   const [active, setActive] = useState(0);
   const [isSelected, setIsSelected] = useState();
@@ -26,7 +27,7 @@ export default function SkillsComponent() {
         style={{ cursor: "pointer" }}
         className="list-group-horizontal-lg flex-lg-wrap list-list-group-flush tex"
       >
-        {SkillsSorted.map((skill, index) => (
+        {skillsSorted.map((skill, index) => (
           <ListGroupItem
             itemID={index}
             key={index}
